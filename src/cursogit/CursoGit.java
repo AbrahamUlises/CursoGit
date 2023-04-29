@@ -15,11 +15,13 @@ public class CursoGit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int j = 0;
         double arr[] = {20.2, 28.6, 11.8, 3.1};
         double sum = 0;
         double media;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
+            System.out.println("num: "+j);
         }
         media = sum /arr.length;
         System.out.println("La media es: "+media);
